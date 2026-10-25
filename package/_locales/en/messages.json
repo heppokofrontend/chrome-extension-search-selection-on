@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "Search selection on..."
+  },
+  "extDesc": {
+    "message": "Search the selected keyword on X, YouTube and more from the context menu (right-click)."
+  },
+  "menuItemTitle": {
+    "message": "Search for \"%s\" on"
+  }
+}

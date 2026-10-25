@@ -1,0 +1,11 @@
+{
+  "extName": {
+    "message": "いろんなサービスでキーワード検索するやつ"
+  },
+  "extDesc": {
+    "message": "選択したキーワードを、コンテキストメニュー（右クリック）からXやYouTubeなどで検索できます。"
+  },
+  "menuItemTitle": {
+    "message": "「%s」を検索"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "chrome-extension-search-selection-on",
+  "description": "Chrome extension: search the selected text on a site from the right-click context menu.",
+  "version": "1.0.0",
+  "author": "heppokofrontend",
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  },
+  "bugs": {
+    "url": "https://github.com/heppokofrontend/chrome-extension-search-selection-on/issues"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/chrome": "0.2.0",
+    "esbuild": "0.28.1",
+    "eslint": "10.6.0",
+    "eslint-config-prettier": "10.1.8",
+    "globals": "17.7.0",
+    "prettier": "3.9.0",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.62.0"
+  },
+  "homepage": "https://github.com/heppokofrontend/chrome-extension-search-selection-on#readme",
+  "license": "MIT",
+  "packageManager": "npm@11.17.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heppokofrontend/chrome-extension-search-selection-on.git"
+  },
+  "scripts": {
+    "build": "npm run type-check && node esbuild.config.mjs",
+    "dev": "node esbuild.config.mjs --watch",
+    "format-fix": "prettier . --write",
+    "format-check": "prettier . --check",
+    "lint-check": "eslint src",
+    "lint-fix": "eslint src --fix",
+    "start": "npm run dev",
+    "type-check": "tsc"
+  }
+}
